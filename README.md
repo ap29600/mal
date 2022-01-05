@@ -791,6 +791,9 @@ make
 
 ### Odin
 
+The Odin implementation links against system `libc` for regex matching.
+If the system is not POSIX compliant, the `regex` implementation might not be present.
+
 ```
 cd impls/odin
 make
