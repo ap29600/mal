@@ -100,6 +100,7 @@ FAQ](docs/FAQ.md) where I attempt to answer some common questions.
 | [Object Pascal](#object-pascal) | [Joel Martin](https://github.com/kanaka)  |
 | [Objective C](#objective-c) | [Joel Martin](https://github.com/kanaka)  |
 | [OCaml](#ocaml-4010) | [Chris Houser](https://github.com/chouser) |
+| [Odin](#Odin) | [Andrea Piseri](https://github.com/ap29600) |
 | [Perl](#perl-5) | [Joel Martin](https://github.com/kanaka)  |
 | [Perl 6](#perl-6) | [Hinrik Örn Sigurðsson](https://github.com/hinrik) |
 | [PHP](#php-53) | [Joel Martin](https://github.com/kanaka)  |
@@ -784,6 +785,14 @@ make
 
 ```
 cd impls/ocaml
+make
+./stepX_YYY
+```
+
+### Odin
+
+```
+cd impls/odin
 make
 ./stepX_YYY
 ```
